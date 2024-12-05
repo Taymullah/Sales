@@ -1,0 +1,39 @@
+# Latest versions of all tools, frameworks, and libraries as of December 2024
+
+# Jupyter Notebook for running experiments interactively
+notebook==7.3.1
+
+# Core libraries for data handling and analysis
+pandas==2.2.3
+numpy==2.1.3
+
+# Visualization libraries
+matplotlib==3.9.3
+seaborn==0.13.2
+plotly==5.24.1  # For interactive visualizations in Streamlit
+
+# Machine Learning library for the neural network
+torch==2.5.1
+torchvision==0.20.1  # For image-related neural network tasks, if needed
+
+# Dashboard/UI creation
+streamlit==1.40.2
+
+# Web scraping (if collecting data from APIs or websites)
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# MLflow for experiment tracking and model management
+mlflow==2.18.0
+
+# YAML handling (for reading your config.yaml)
+pyyaml==6.0.2
+
+# Additional utilities
+scikit-learn==1.5.2  # For any preprocessing tasks or model evaluation
+ensure==1.0.4        # For robust validations and assertions
+tqdm==4.67.1         # Progress bar for loops and operations
+python-box==7.2.0    # Dot-accessible dictionaries and YAML/JSON parsing
+gunicorn==23.0.0     # For deploying the app with Docker and production servers
+
+-e .
