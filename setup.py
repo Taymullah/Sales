@@ -10,7 +10,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Sales"
 AUTHOR_USER_NAME = "Taymullah"
-SRC_REPO = "Sales"
+SRC_REPO = "Ecommerce"
 AUTHOR_EMAIL = "sm.taymullah@gmail.com"
 
 setuptools.setup(
