@@ -29,8 +29,7 @@ The dataset includes:
 1. Clone or create the project directory structure:
     ```bash
     git clone [repository-url] # If using version control
-    # OR
-    mkdir -p /Users/marioholmes/Sales
+
     ```
 
 2. Navigate to the project directory:
