@@ -1,2 +1,34 @@
-key: val
-  
+COLUMNS:
+  Transaction_ID: float64
+  Customer_ID: float64
+  Name: str
+  Email: str
+  Phone: float64
+  Address: str
+  City: str
+  State: str
+  Zipcode: float64
+  Country: str
+  Age: float64
+  Gender: str
+  Income: str
+  Customer_Segment: str
+  Date: str
+  Year: float64
+  Month: str
+  Time: str
+  Total_Purchases: float64
+  Amount: float64
+  Total_Amount: float64
+  Product_Category: str
+  Product_Brand: str
+  Product_Type: str
+  Feedback: str
+  Shipping_Method: str
+  Payment_Method: str
+  Order_Status: str
+  Ratings: float64
+  products: str
+
+TARGET_COLUMN: 
+Ratings: float64
