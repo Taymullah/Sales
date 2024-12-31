@@ -25,20 +25,55 @@ The dataset includes:
 3. Customer Segmentation Analysis
 4. Revenue Optimization Recommendations
 
-## How to Set Up the Project
-1. Clone or create the project directory structure:
-    ```bash
-    git clone [repository-url] # If using version control
+## Project Setup Instructions
 
+### Prerequisites
+- Git installed on your system
+- Python 3.8 or higher
+- Access to project repository
+
+### Setup Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Taymullah/Sales.git
     ```
 
-2. Navigate to the project directory:
+2. Navigate to project directory:
     ```bash
-    cd /Users/marioholmes/Sales
+    # MacOS/Linux
+    cd Sales
+
+    # Windows
+    cd Sales
     ```
 
-3. Create the initial documentation:
-    - Create README.md file
-    - Add basic project structure documentation
-    - Include setup instructions
+3. Create and activate virtual environment:
+    ```bash
+    # MacOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+
+    # Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+
+4. Install required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Configure environment variables:
+    ```bash
+    # MacOS/Linux
+    cp .env.example .env
+
+    # Windows
+    copy .env.example .env
+    ```
+
+
+### Additional Resources
+- See `LICENSE` for terms of use
 
